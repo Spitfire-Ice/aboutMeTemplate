@@ -1,13 +1,16 @@
 // base
 @import "base/normalize";
+@import "base/fonts";
+
+// helpers
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/global";
 
 // components
 @import "components/buttons";
 @import "components/navigation";
 
-// helpers
-@import "helpers/variables";
-@import "helpers/mixins";
 // layout
 @import "layout/header";
 @import "layout/footer";
@@ -17,23 +20,3 @@
 // themes
 
 // vendors
-
-
-
-
-
-
-h1 {
- color: rgba(255, 255, 0, 1);
-}
-h2 {
- color: rgba(233,44,5, 1);
-}
-
-.bg {
- width: 100px;
- height: 100px;
- background: url(../img/imgbin-mechwarrior-online-mecha-mechwarrior-4-vengeance-battletech-war-robots-science-fiction-b3TA0d1djrBE0ULDDcRjCEUUh.jpg) bottom center no-repeat;
-
-
-}

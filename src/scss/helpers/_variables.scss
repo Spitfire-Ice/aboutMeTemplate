@@ -1,6 +1,23 @@
-$base-color: #c6538c;
-$border-dark: rgba($base-color, 0.88);
+// border-radius
+// color
+// font-family
+// font-weight
+// margin (gutters, grid gutters)
+// transition (duration, easing) – consider a mixin
 
-.alert {
- border: 1px solid $border-dark;
-}
+//$base-color: #c6538c;
+//$border-dark: rgba($base-color, 0.88);
+//
+//.alert {
+// border: 1px solid $border-dark;
+//}
+
+// === colors =================================
+$background-color: rgba(32, 33, 36, 1);
+$main-theme-color: rgba(255, 166, 136, 1);
+$main-text-color: rgba(255, 255, 255, 1);
+$black-color: rgba(0, 0, 0, 1);
+$white-color: rgba(255, 255, 255, 1);
+
+// === fonts ==================================
+$main-font: 'Poppins', sans-serif;

@@ -1,3 +1,13 @@
 button {
- font-size: 12px;
+ width: 213px;
+ height:57px;
+ border-radius: 7px;
+ box-sizing: border-box;
+ border: 1px solid $main-theme-color;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 24px;
+ line-height: 36px;
+ text-transform: uppercase;
+ cursor: pointer;
 }

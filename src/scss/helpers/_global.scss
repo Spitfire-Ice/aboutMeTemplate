@@ -1,0 +1,25 @@
+html {
+ @include font-family;
+ background-color: $background-color;
+ color: $main-text-color;
+}
+body {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+}
+
+// reset list
+ul
+{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+// reset links
+a, a:hover, a:focus, a:active {
+ text-decoration: none;
+ color: inherit;
+}
